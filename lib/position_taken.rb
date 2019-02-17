@@ -9,3 +9,9 @@
 # def position_taken?(board, index)
 #   !(board[index] == " " || board[index] == "" || board[index] == nil)
 # end
+
+def position_taken?(board, index)
+  puts board.inspect
+  puts index
+  puts board[index].inspect
+end
