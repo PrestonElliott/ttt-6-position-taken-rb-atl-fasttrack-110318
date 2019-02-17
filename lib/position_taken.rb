@@ -11,7 +11,8 @@
 # end
 
 def position_taken?(board, index)
-  puts board.inspect
-  puts index
-  puts board[index].inspect
+  position = board[index]
+  if position == ""
+    return false 
+  end
 end
