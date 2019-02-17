@@ -14,5 +14,7 @@ def position_taken?(board, index)
   position = board[index]
   if position == ""
     return false 
+  else
+    return true 
   end
 end
